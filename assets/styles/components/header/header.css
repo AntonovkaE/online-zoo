@@ -1,0 +1,68 @@
+.header {
+    background-color: #000000;
+}
+
+.navigation {
+    padding: 14px 220px;
+    box-sizing: border-box;
+    max-width: 1600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.navigation__logo-link {
+    height: 52px;
+    width: 82px;
+    margin: 0 63px 0 0;
+    outline: 1px solid #FFFFFF;
+    padding: 3.55px 4.75px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.logo__title {
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    text-align: center;
+    margin: 0;
+}
+
+.logo__icon {
+    position: absolute;
+    top: 23.5px;
+    left: 11px;
+}
+
+.navigation__menu {
+    margin-right: 438px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navigation__menu-item {
+    margin: auto;
+}
+
+.navigation__menu-item:not(:last-child) {
+    margin: auto 58px auto 0;
+}
+
+.navigation__menu-item_active {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+@media screen and (max-width: 100px) {
+    .navigation {
+        padding: 14px 30px;
+    }
+}
