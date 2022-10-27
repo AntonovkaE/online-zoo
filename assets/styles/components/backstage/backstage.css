@@ -1,0 +1,49 @@
+.backstage {
+    padding: 140px 220px 140px 219px;
+}
+
+.backstage__content {
+    color: #333B41;
+    display: flex;
+    flex-direction: row;
+}
+
+.backstage__img {
+    width: 609px;
+    height: 403px;
+    background-image: url(../../../images/bamboo-cap.jpg);
+    margin-right: 87px;
+}
+
+.backstage__description {
+    width: 465px;
+}
+
+.backstage__heading {
+    font-weight: 400;
+}
+.backstage__heading_main {
+    font-size: 48px;
+    line-height: 120%;
+    margin: 0 auto 20px 0;
+}
+
+.backstage__subheading {
+    margin: 0 auto 54px 0;
+    font-size: 16px;
+    line-height: 21px;
+    padding: 0;
+}
+
+.backstage__heading_additional {
+    font-size: 24px;
+    line-height: 120%;
+    margin: 0 auto 34px 0;
+}
+
+.backstage__description {
+    font-size: 16px;
+    line-height: 22px;
+    padding: 0;
+    margin: 0;
+}
