@@ -1,0 +1,59 @@
+.main-banner {
+    background: #000000;
+    position: relative;
+}
+
+.main-banner__content {
+    background: url(../../../images/GiantPanda.jpg);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    max-width: 1600px;
+    z-index: -1;
+    padding: 86px 0 100px;
+    box-sizing: border-box;
+}
+
+.main-banner__title {
+    position: relative;
+    margin: 0 auto 60px 880px;
+    font-weight: 700;
+    font-size: 106.496px;
+    line-height: 75%;
+    /* or 80px */
+
+    text-align: center;
+    text-transform: uppercase;
+    width: 400px;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.main-banner__circle {
+    background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    position: absolute;
+    content: '';
+    width: 465px;
+    height: 465px;
+    border-radius: 50%;
+    top: 12px;
+    left: 807px;
+    z-index: 0;
+}
+
+.main-banner__title_focus {
+    color: #FFEE2E;
+}
+
+.main-banner__button {
+    margin-left: 983px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
