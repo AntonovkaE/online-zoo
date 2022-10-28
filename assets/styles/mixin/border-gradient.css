@@ -5,3 +5,19 @@
     box-sizing: border-box;
     border-radius: 5px;
 }
+
+/*.border-gradient_pink {*/
+/*    border: 1px solid transparent;*/
+/*    border-image: linear-gradient(113.96deg, #FEBDAB 74%, #F3A9F8 66%, #E0D8F0 100%, #EAF7FE 100%, #EAF7FE 100%);*/
+/*    border-image-slice: 1;*/
+/*    box-sizing: border-box;*/
+/*    border-radius: 20px;*/
+/*}*/
+.border-gradient_pink {
+    background: linear-gradient(#F1F3F2 0 0)  padding-box, /*this is your grey background*/
+            linear-gradient(113.96deg, #FEBDAB 74%, #F3A9F8 66%, #E0D8F0 100%, #EAF7FE 100%, #EAF7FE 100%) border-box;
+    /*padding: 10px;*/
+    border: 2px solid transparent;
+    border-radius: 20px;
+    display: inline-block;
+}
