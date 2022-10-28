@@ -1,0 +1,103 @@
+.feed {
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+    opacity: 0.9;
+    padding: 69px 220px 100px;
+    color: #333B41;
+}
+
+.feed__content {
+    background: rgba(253, 253, 255, 0.52);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    padding: 41px 0 59px 0;
+    width: 1160px;
+    box-sizing: border-box;
+}
+
+.feed__heading_main {
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    margin: 0 auto 30px 99px;
+    text-align: center;
+
+    color: #FE9013;
+}
+
+.feed__subheading {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    margin: 0 auto 40px 99px;
+    /* identical to box height, or 29px */
+}
+
+.feed__description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+}
+
+.feed__description_covid {
+    font-weight: 500;
+    margin: 0 auto 10px 99px;
+}
+
+.feed__description_text {
+    width: 863px;
+    margin: 0 auto 60px 99px;
+}
+
+.feed__heading_additional {
+    margin: 0 auto 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 130%;
+    /* identical to box height, or 47px */
+
+    color: #333B41;
+}
+
+.feed__schema {
+    width: 764px;
+    margin: 0 auto 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.schema__arrow {
+    object-fit: contain;
+    object-position: center;
+}
+
+.schema__figure {
+    margin: 0;
+}
+
+.schema__img {
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    width: 168px;
+    height: 168px;
+    object-position: center;
+    object-fit: none;
+    margin: 0 auto 30px;
+}
+
+.schema__caption {
+    width: 168px;
+}
+
+.feed__button {
+    display: block;
+    margin: 0 auto;
+}
+
+/*.schema__figure:not(:last-child)::after {*/
+/*    display: block;*/
+/*    width: 69px;*/
+/*    height: 35.08px;*/
+/*    content: '';*/
+/*    background-image: url(../../../icons/arrow.png);*/
+/*}*/

@@ -1,0 +1,61 @@
+.pets {
+    padding: 20px 140px 138px 100px;
+    display: flex;
+    flex-direction: column;
+}
+.pets__content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto 80px;
+}
+
+.pets__list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 30px;
+    margin: 0 20px;
+}
+
+.pets__button_ctrl {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+}
+
+
+
+.pets__body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 8px 12px 14px 16px;
+}
+
+.pets__inf {
+
+}
+
+.pets__animal {
+    margin: 0;
+    font-size: 16px;
+    line-height: 140%;
+    text-transform: uppercase;
+}
+
+.pets__geo {
+    margin: 0;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 120%;
+}
+
+.pets__icon {
+    object-fit: contain;
+}
+
+.pets__button_link {
+    margin: 0 auto;
+}

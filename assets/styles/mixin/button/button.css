@@ -2,6 +2,8 @@
     border: none;
     padding: 16px 5px;
     width: 298px;
+    color: #FFFFFF;
+    text-transform: uppercase;
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
 }
 
