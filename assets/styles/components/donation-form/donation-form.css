@@ -1,0 +1,50 @@
+.donation-form {
+    width: 100%;
+    display: contents;
+}
+
+.donation-form__slider {
+    width: 100%;
+    background: #404950;
+    border-radius: 2px;
+
+}
+
+.form__input {
+    width: 268px;
+    background-color: inherit;
+    border: #929699 1px solid;
+    padding: 9px 16px;
+    box-sizing: border-box;
+}
+
+
+.form__text-input {
+    margin-top: 92px;
+    margin-bottom: 25px;
+}
+
+.form__radio-inputs {
+    margin-bottom: 31px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #333B41;
+}
+
+.form__radio-input:not(:last-child) {
+    margin-right: 50px;
+}
+
+.donation-form__submit {
+    margin-bottom: 30px;
+}
+
+
+.link__share {
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    line-height: 22px;
+    color: #333B41;
+}

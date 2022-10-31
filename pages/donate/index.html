@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Online-zoo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="body">
+<header class="header">
+    <nav class="navigation">
+        <a href="#main" class="navigation__logo-link logo">
+            <h1 class="logo__title">PetStory online</h1>
+            <img class="logo__icon" src="../../assets/icons/bamboo.svg" alt="bamboo icon">
+        </a>
+        <ul class="list navigation__menu">
+            <li class="navigation__menu-item navigation__menu-item_active">About</li>
+            <li class="navigation__menu-item">Map</li>
+            <li class="navigation__menu-item">Zoos</li>
+            <li class="navigation__menu-item">Donate</li>
+            <li class="navigation__menu-item">Contact us</li>
+        </ul>
+        <p class="navigation__design">Designed by ©</p>
+    </nav>
+</header>
+<main>
+    <section class="donate-background">
+    </section>
+    <section class="donation">
+        <div class="donation__content">
+            <h2 class="donation__heading donation__heading_main">THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR
+                HELP!</h2>
+            <p class="donation__text">Even though the Zoo has been able to reopen, we are at a greatly reduced capacity
+                with educational programs
+                and public and private events cancelled or postponed for additional months. We need you now more than
+                ever
+                to help ensure that we overcome these challenges. We have been actively raising funds in the community,
+                and
+                we are grateful for the generosity. But much more support is still needed, and we need your help! Please
+                consider a gift today – no matter what size – to help us sustain our mission.</p>
+            <h3 class="donation__heading">Donation Information</h3>
+            <div class="donation__light-background">
+                <h3 class="donation__heading donation__heading_feed">Pick and feed a friend</h3>
+                <p class="donation__subheading">We know the animals bring you joy, and in these extraordinary times,
+                    we’re glad.</p>
+                <div class="flex-inline-center donation__schema donation-schema">
+                    <div class="donation__text-block">
+                        <p class="donation-schema__number">4</p>
+                        <p class="donation-schema__text">
+                            Panda diet for the day.
+                        </p>
+                    </div>
+                    <img class="donation-schema__cross" src="../../assets/icons/x_icon.svg" alt="">
+                    <img class="donation-schema__img" src="../../assets/icons/animals-widget.svg">
+                </div>
+                <div id="form-wrapper">
+                    <form class="flex-column donation-form" action="/p/quote.php" method="GET">
+                        <div class="donation-form__slider" id="debt-amount-slider">
+                            <input type="radio" name="debt-amount" id="1" value="5000" required>
+                            <label for="1" data-debt-amount="$5000"></label>
+                            <input type="radio" name="debt-amount" id="2" value="2000" required>
+                            <label for="2" data-debt-amount="$2000"></label>
+                            <input type="radio" name="debt-amount" id="3" value="1000" checked required>
+                            <label for="3" data-debt-amount="$1000"></label>
+                            <input type="radio" name="debt-amount" id="4" value="500" required>
+                            <label for="4" data-debt-amount="$500"></label>
+                            <input type="radio" name="debt-amount" id="5" value="250" required>
+                            <label for="5" data-debt-amount="$250"></label>
+                            <input type="radio" name="debt-amount" id="6" value="100" required>
+                            <label for="6" data-debt-amount="$100"></label>
+                            <input type="radio" name="debt-amount" id="7" value="50" required>
+                            <label for="7" data-debt-amount="$50"></label>
+                            <input type="radio" name="debt-amount" id="8" value="25" required>
+                            <label for="8" data-debt-amount="$25"></label>
+                            <div id="debt-amount-pos"></div>
+                        </div>
+                        <label class="form__text-input">
+                            <input class="form__input" type="text" placeholder="Another amount">
+                        </label>
+                        <div class="form__radio-inputs">
+                            <label class="form__radio-input">
+                                <input type="radio" checked="checked" name="Monthly"/>
+                                Monthly
+                            </label>
+                            <label  class="form__radio-input">
+                                <input type="radio" name="Monthly"/>
+                                Once
+                            </label>
+
+                        </div>
+                        <button class="button button_round-corners donation-form__submit" type="submit">Feed a friend now</button>
+                        <a href="#" class="link link__share">Share with your friends on social networks</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="footer__content">
+        <a href="#main" class="navigation__logo-link logo">
+            <h2 class="logo__title">PetStory online</h2>
+
+            <img class="logo__icon" src="../../assets/icons/bamboo.svg" alt="bamboo icon">
+        </a>
+        <form class="subscribe-form">
+            <h3 class="subscribe-form__heading">Subscribe to our news</h3>
+            <input class="subscribe-form__input" placeholder="Enter your email">
+            <button type="submit" class="button button__submit subscribe-form__button">
+                Submit
+            </button>
+        </form>
+        <button class="button footer__button footer__button_donate footer__button">
+            donate for volunteers
+        </button>
+        <ul class="list social-links">
+            <li class="social-link__item">
+                <a href="https://www.facebook.com" class="footer__social-link">
+                    <img class="footer__social-icon" src="../../assets/icons/facebook.svg"><span>Facebook</span>
+                </a>
+            </li>
+            <li class="social-link__item">
+                <a href="https://twitter.com" class="footer__social-link">
+                    <img class="footer__social-icon" src="../../assets/icons/twitter.svg"><span>Twitter</span>
+                </a>
+            </li>
+            <li class="social-link__item">
+                <a href="https://www.instagram.com" class="footer__social-link">
+                    <img class="footer__social-icon" src="../../assets/icons/instagram.svg"><span>Instagram</span>
+                </a>
+            </li>
+            <li class="social-link__item">
+                <a href="https://www.youtube.com" class="footer__social-link">
+                    <img class="footer__social-icon" src="../../assets/icons/yourube.svg"><span>YouTube</span>
+                </a>
+            </li>
+        </ul>
+        <nav class="footer__nav">
+            <ul class="list footer__navigation-list">
+                <li class="footer__navigation-item footer__navigation-item_active"><a class="footer__navigation-link">About</a>
+                </li>
+                <li class="footer__navigation-item"><a class="footer__navigation-link">Map</a></li>
+                <li class="footer__navigation-item"><a class="footer__navigation-link">Zoos</a></li>
+                <li class="footer__navigation-item"><a class="footer__navigation-link">Contact us</a></li>
+            </ul>
+        </nav>
+        <div class="footer__design">
+            <p class="footer__design-inf">
+                Designed by Alisa Samborskaya
+            </p>
+            <p class="footer__design-inf">
+                ©RSSchool & ©Yem Digital 2021
+            </p>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

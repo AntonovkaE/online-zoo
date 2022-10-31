@@ -1,5 +1,8 @@
 .pets {
-    padding: 20px 140px 138px 100px;
+    padding: 40px 140px 100px 138px;
+    background-image: url(../../../images/palm_foto.png), url(../../../images/strelitzia1.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom left, bottom right;
     display: flex;
     flex-direction: column;
 }
@@ -18,30 +21,55 @@
     margin: 0 20px;
 }
 
-.pets__button_ctrl {
-    width: 62px;
-    height: 62px;
-    border-radius: 50%;
+.pets__list-item {
+    display: flex;
+    flex-direction: column;
+    width: 366px;
+    overflow: hidden;
 }
 
 
 
+.pets__button_ctrl {
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    /*content: url(../../../icons/arrow-icon.svg);*/
+}
+
+.pets__button_next {
+    transform: rotate(180deg);
+}
+
+.pets__img {
+    width: 366px;
+    height: 365px;
+    object-fit: contain;
+}
+
+.pets__img:hover {
+    transform: scale(1.055);
+}
+
+.pets__img:hover + .pets__body {
+    background: #BDBDBD;
+}
 .pets__body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 8px 12px 14px 16px;
+    padding: 7px 12px 12px 16px;
+    position: relative;
+    z-index: 2;
+    background: #FFFFFF;
 }
 
-.pets__inf {
-
-}
 
 .pets__animal {
     margin: 0;
     font-size: 16px;
-    line-height: 140%;
+    line-height: 22px;
     text-transform: uppercase;
 }
 
@@ -49,7 +77,7 @@
     margin: 0;
     font-weight: 300;
     font-size: 15px;
-    line-height: 120%;
+    line-height: 18px;
 }
 
 .pets__icon {

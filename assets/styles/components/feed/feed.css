@@ -18,7 +18,7 @@
     font-weight: 400;
     font-size: 48px;
     line-height: 120%;
-    margin: 0 auto 30px 99px;
+    margin: 0 auto 30px auto;
     text-align: center;
 
     color: #FE9013;
@@ -35,7 +35,7 @@
 .feed__description {
     font-weight: 400;
     font-size: 16px;
-    line-height: 130%;
+    line-height: 21px;
 }
 
 .feed__description_covid {
@@ -64,11 +64,12 @@
     margin: 0 auto 60px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
 }
 .schema__arrow {
     object-fit: contain;
     object-position: center;
+    margin-top: 55px;
 }
 
 .schema__figure {
@@ -78,8 +79,8 @@
 .schema__img {
     border-radius: 5px;
     background-color: #FFFFFF;
-    width: 168px;
-    height: 168px;
+    width: 166px;
+    height: 166px;
     object-position: center;
     object-fit: none;
     margin: 0 auto 30px;
@@ -87,6 +88,8 @@
 
 .schema__caption {
     width: 168px;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 .feed__button {

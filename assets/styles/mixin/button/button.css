@@ -8,6 +8,17 @@
     height: fit-content;
 }
 
+.button:hover {
+    background: #E47209;
+}
+
+.button:active {
+    background: #4B9200;;
+}
+
+.button:disabled {
+    background: #767474;
+}
 .button_round-corners {
     border-radius: 25px;
 }

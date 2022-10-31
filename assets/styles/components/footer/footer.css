@@ -15,6 +15,7 @@
 .subscribe-form {
     text-align: right;
     margin-left: 50%;
+    margin-bottom: 36px;
 }
 
 .subscribe-form__heading {
@@ -45,6 +46,12 @@
     border: #F9804B 1px solid;
     padding: 10px 7px 10px 10px;
     margin-right: 10px;
+    width: 228px;
+    box-sizing: border-box;
+}
+
+.subscribe-form__input:focus {
+    border: 1px solid #4B9200;
 }
 
 .subscribe-form__input::-webkit-input-placeholder {
@@ -88,6 +95,11 @@
 .social-link__item {
     display: flex;
     align-items: center;
+    margin-bottom: 0;
+}
+
+.social-link__item:not(:last-child) {
+    margin-bottom: 10px;
 }
 
 .footer__nav {

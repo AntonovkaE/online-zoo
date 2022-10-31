@@ -1,0 +1,91 @@
+.donation {
+    background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+}
+
+.donation__content {
+    padding: 40px 0 180px;
+    width: 1160px;
+    margin: 0 auto;
+}
+
+.donation__heading {
+    font-size: 36px;
+    line-height: 47px;
+    font-weight: 400;
+
+    color: #FE9013;
+}
+
+
+.donation__heading_main {
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 47px;
+    color: #FFFFFF;
+    margin: 0 auto 10px;
+}
+
+.donation__heading_feed {
+    font-size: 48px;
+    line-height: 58px;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.donation__subheading {
+    font-size: 24px;
+    line-height: 29px;
+    color: #333B41;
+    margin: 0 auto 60px;
+    text-align: left;
+}
+.donation__text {
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0 auto 40px;
+    color: #FFFFFF;
+}
+
+
+.donation__light-background {
+    background: rgba(255, 255, 255, 0.52);
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 20px;
+    padding: 40px 92px 62px;
+}
+
+.donation__text-block {
+    margin: auto 70px auto auto;
+}
+
+.donation-schema__number {
+    font-weight: 500;
+    font-size: 72px;
+    line-height: 58px;
+    margin: 0;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+
+.donation-schema__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #333B41;
+}
+
+.donation-schema__cross {
+    margin: auto 64px auto 0;
+}
+
+.donation-schema__img {
+    margin: 0 auto 80px 0;
+}

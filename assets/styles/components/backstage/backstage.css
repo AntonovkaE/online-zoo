@@ -1,4 +1,7 @@
 .backstage {
+    background-image: url(../../../images/flower_foto1.png);
+    background-repeat: no-repeat;
+    background-position: top right;
     padding: 140px 220px 140px 219px;
 }
 
