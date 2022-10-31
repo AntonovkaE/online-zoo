@@ -29,6 +29,7 @@ form #debt-amount-slider {
     align-content: stretch;
     position: relative;
     width: 976px;
+    box-sizing: border-box;
     user-select: none;
     padding: 8px 26px 9px;
 }
@@ -76,8 +77,9 @@ form #debt-amount-slider label::after {
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 10px;
-    height: 10px;
+    border: 2px solid #000;
+    width: 30px;
+    height: 30px;
     background:  #FFEE2E;
     border-radius: 50%;
     pointer-events: none;

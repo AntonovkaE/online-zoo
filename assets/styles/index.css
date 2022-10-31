@@ -1,6 +1,7 @@
 @import url(./vendor/normalize.css);
 @import url(../fonts/roboto-2/roboto.css);
 @import url(./mixin/list/list.css);
+@import url(./mixin/link.css);
 @import url(./mixin/button/button.css);
 @import url(./mixin/section/section.css);
 @import url(./mixin/border-gradient.css);
