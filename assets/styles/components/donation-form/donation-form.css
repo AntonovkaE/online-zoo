@@ -1,6 +1,8 @@
 .donation-form {
     width: 100%;
-    display: contents;
+    display: flex;
+    align-items: center;
+
 }
 
 .donation-form__slider {
