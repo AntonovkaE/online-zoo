@@ -97,10 +97,7 @@
     margin: 0 auto;
 }
 
-/*.schema__figure:not(:last-child)::after {*/
-/*    display: block;*/
-/*    width: 69px;*/
-/*    height: 35.08px;*/
-/*    content: '';*/
-/*    background-image: url(../../../icons/arrow.png);*/
-/*}*/
+.feed__link {
+    text-decoration: underline;
+    text-decoration-color: #FE9013;
+}
