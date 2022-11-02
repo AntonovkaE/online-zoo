@@ -1,10 +1,10 @@
 .testimonials__content {
-    max-width: 1600px;
-    padding: 140px 220px 180px;
+    margin: 0 auto;
+    max-width: 1160px;
+    padding: 140px 0 180px;
     background-image: url(../../../images/leav_foto.png);
     background-repeat: no-repeat;
     background-position: bottom -140px right;
-    /* identical to box height, or 47px */
 }
 
 .testimonials__heading {
@@ -115,4 +115,21 @@
 
 .line-scroll__active-part:active {
     background: #4B9200;
+}
+
+@media screen and (min-width: 1000px) {
+    .testimonials__content {
+        width: 940px;
+
+    }
+    .feedback-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-auto-rows: 0;
+        margin: 0 auto 21px;
+        gap: 0 29px;
+        overflow: hidden;
+    }
+
 }
