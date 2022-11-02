@@ -17,12 +17,13 @@
     background-color: inherit;
     border: #929699 1px solid;
     padding: 9px 16px;
+    height: 54px;
     box-sizing: border-box;
 }
 
 
 .form__text-input {
-    margin-top: 92px;
+    margin-top: 100px;
     margin-bottom: 25px;
 }
 

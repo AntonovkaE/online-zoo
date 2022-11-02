@@ -81,12 +81,12 @@
                             <input class="form__input" type="text" placeholder="Another amount">
                         </label>
                         <div class="form__radio-inputs">
-                            <label class="form__radio-input">
-                                <input type="radio" checked="checked" name="Monthly"/>
+                            <input class="form__radio-button" type="radio" name="Monthly" id="radio-monthly"/>
+                            <label class="form__radio-input" for="radio-monthly">
                                 Monthly
                             </label>
-                            <label  class="form__radio-input">
-                                <input type="radio" name="Monthly"/>
+                            <input class="form__radio-button" type="radio" name="Monthly" id="radio-once"/>
+                            <label  class="form__radio-input" for="radio-once">
                                 Once
                             </label>
 
@@ -108,7 +108,7 @@
         </a>
         <form class="subscribe-form">
             <h3 class="subscribe-form__heading">Subscribe to our news</h3>
-            <input class="subscribe-form__input" placeholder="Enter your email">
+            <input type="email" class="subscribe-form__input" placeholder="Enter your email">
             <button type="submit" class="button button__submit subscribe-form__button">
                 Submit
             </button>

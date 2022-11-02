@@ -104,16 +104,17 @@
 
 .footer__nav {
     align-self: end;
+    flex-basis: 800px;
 }
 
 .footer__navigation-list {
+    margin-left: 278px;
     display: flex;
-    margin: 0;
     flex-direction: row;
 }
 
 .footer__navigation-link {
-    margin-right: 48px;
+    margin-right: 58px;
 }
 
 .footer__navigation-item {

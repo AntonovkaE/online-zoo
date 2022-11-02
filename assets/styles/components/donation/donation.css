@@ -102,3 +102,20 @@
 .donation-schema__img {
     margin: 0 auto 0 0;
 }
+
+.form__radio-input::before {
+    content: '';
+    display: inline-block;
+    border: 1px solid #FE9013;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+}
+
+.form__radio-button {
+    display: none;
+}
+
+.form__radio-button:checked + .form__radio-input::before {
+    background: #FE9013;
+}
