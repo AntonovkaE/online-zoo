@@ -27,7 +27,6 @@
     flex-direction: column;
     width: 366px;
     overflow: hidden;
-    margin-bottom: 59px;
     position: relative;
 }
 
@@ -60,6 +59,7 @@
     top: 40%;
     background: transparent;
     width: 100%;
+    box-sizing: border-box;
     font-size: 30px;
     justify-content: space-between;
 }
@@ -72,7 +72,7 @@
     padding: 7px 12px 12px 16px;
     z-index: 2;
     background: #FFFFFF;
-    box-sizing: border-box;
+    /*box-sizing: border-box;*/
     font-size: 16px;
     transition: all ease-in 10s;
 }
