@@ -9,12 +9,13 @@
     background: #404950;
     border-radius: 2px;
     position: relative;
+    /*padding: 0 26px;*/
 }
 .amount-slider::before {
     content: " ";
     position: absolute;
     height: 2px;
-    width: 90%;
+    width: calc(100% - 56px);
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -29,22 +30,45 @@
 .amount-slider label {
     display: inline-block;
     position: relative;
-    width: 20%;
     height: 100%;
     user-select: none;
+}
+
+.amount-slider label:last-of-type {
+    flex-basis: 96px;
+    flex-grow: 0;
+}
+
+.amount-slider label:last-of-type::after {
+    left: 60px;
+}
+
+.amount-slider label:first-of-type {
+    flex-basis: 96px;
+    flex-grow: 0;
+}
+
+.amount-slider label:first-of-type::after {
+    left: 26px;
 }
 .amount-slider label::before {
     content: attr(data-debt-amount);
     position: absolute;
     left: 50%;
-    padding-top: 10px;
-    transform: translate(-50%, 45px);
-    font-size: 14px;
-    letter-spacing: 0.4px;
-    font-weight: 400;
-    white-space: nowrap;
-    opacity: 0.85;
+    padding-top: 12px;
+    transform: translate(-50%, 25px);
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+
+    text-transform: uppercase;
+
+    color: #333B41;
     transition: all 0.15s ease-in-out;
+}
+
+.amount-slider label:first-of-type::before {
+    left: 40%;
 }
 .amount-slider label::after {
     content: " ";
@@ -74,8 +98,10 @@
     opacity: 1;
 }
 .amount-slider input:checked + label::after {
+    padding: 7px;
+    border-width: 9px;
+    background-clip: content-box;
     border-color: #F9804B;
-    border-width: 1px;
     border-style: double;
     border-spacing: 7.5px;
 }
