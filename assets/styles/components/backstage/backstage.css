@@ -16,6 +16,7 @@
     height: 403px;
     background-image: url(../../../images/bamboo-cap.jpg);
     margin-right: 87px;
+    background-repeat: no-repeat;
 }
 
 .backstage__description {
@@ -25,6 +26,7 @@
 .backstage__heading {
     font-weight: 400;
 }
+
 .backstage__heading_main {
     font-size: 48px;
     line-height: 120%;
@@ -49,4 +51,22 @@
     line-height: 22px;
     padding: 0;
     margin: 0;
+}
+
+@media screen and (max-width: 1599px) {
+    .backstage {
+        background-image: none;
+        padding: 100px 30px 100px;
+    }
+
+    .backstage__img {
+        width: 455px;
+        height: 408px;
+        margin-right: 31px;
+        background-position: bottom;
+    }
+    .backstage__description {
+        width: 454px;
+    }
+
 }
