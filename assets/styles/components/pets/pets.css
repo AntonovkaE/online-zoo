@@ -1,7 +1,6 @@
-
 .pets {
     padding: 40px 0 100px 0;
-    background-image: url(../../../images/palm_foto.png), url(../../../images/strelitzia1.png);
+    background-image: url(../../../images/palm_foto1.png), url(../../../images/strelitzia1.png);
     background-repeat: no-repeat, no-repeat;
     background-position: bottom left, bottom right;
     display: flex;
@@ -101,7 +100,7 @@
     margin: 0 auto;
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (max-width: 1599px){
 
     .pets__img {
         width: 293px;
@@ -110,6 +109,7 @@
     }
 
     .pets {
+        background-image: url(../../../images/palm_foto2.png), url(../../../images/strelitzia1.png);
         padding: 42px 0 140px;
     }
     .pets__content {
@@ -118,17 +118,18 @@
     }
     .pets__button_ctrl {
         position: absolute;
-        top: 365px;
+        top: 369px;
     }
     .pets__button_prev {
-        left: 40%;
+        left: 34%;
     }
     .pets__button_next {
-        left: 60%;
+        left: 59%;
     }
 
     .pets__list {
-        gap: 92px 29px
+        gap: 92px 29px;
+        margin: 0 auto;
     }
     .pets__list-item {
         width: 292px;}
