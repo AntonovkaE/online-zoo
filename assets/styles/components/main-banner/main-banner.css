@@ -8,7 +8,7 @@
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 700px;
+    /*height: 700px;*/
     max-width: 1600px;
     z-index: -1;
     padding: 86px 0 100px;
@@ -17,7 +17,7 @@
 
 .main-banner__title {
     position: relative;
-    margin: 0 auto 60px 880px;
+    margin: 0 220px 60px auto;
     font-weight: 700;
     font-size: 106.496px;
     line-height: 75%;
@@ -38,7 +38,7 @@
     height: 465px;
     border-radius: 50%;
     top: 12px;
-    left: 807px;
+    right: 328px;
     z-index: 0;
 }
 
@@ -47,7 +47,8 @@
 }
 
 .main-banner__button {
-    margin-left: 983px;
+    display: block;
+    margin: 0 319px 0 auto;
     font-weight: 500;
     font-size: 16px;
     line-height: 140%;
@@ -55,5 +56,31 @@
 
     text-align: center;
     text-transform: uppercase;
+}
+
+@media screen and (max-width: 1599px){
+    .main-banner__title {
+        margin: 0 85.75px 40.2px auto;
+        font-weight: 700;
+        font-size: 85px;
+        line-height: 64px;
+        width: 400px;
+    }
+
+    .main-banner__circle {
+        top: -11px;
+        right: 177px;
+        width: 367px;
+        height: 367px;
+    }
+
+    .main-banner__button {
+        margin-right: 137px;
+    }
+
+    .main-banner__content {
+        padding: 42.8px 0 47px;
+        background-size: 120%;
+    }
 }
 
