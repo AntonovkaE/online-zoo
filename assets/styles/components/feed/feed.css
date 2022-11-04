@@ -104,7 +104,10 @@
     text-decoration-color: #FE9013;
 }
 
-@media screen and (min-width: 100px) {
+@media screen and (max-width: 1599px) {
+    .feed {
+        padding: 30px 0 50px;
+    }
     .feed__content {
         width: 940px;
     }
@@ -113,4 +116,20 @@
         margin: 0 auto 40px 49px;
     }
 
+    .feed__content {
+        width: 94%;
+        max-width: 1160px;
+        padding: 30px 0 50px 0;
+    }
+    .feed__subheading {
+        margin: 0 auto 20px 49px;
+    }
+    .feed__description_covid {
+        margin: 0 auto 10px 49px
+    }
+
+    .feed__description_text {
+        width: auto;
+        margin: 0 68px 40px 49px;
+    }
 }
