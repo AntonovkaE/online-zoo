@@ -68,7 +68,7 @@
 .subscribe-form__input:focus {
     border: 1px solid #4B9200;
 }
-.subscribe-form__input:focus-visible {
+.subscribe-form__input:focus-visible, .subscribe-form__input:valid {
     outline: none;
     border: 1px solid #4B9200;
 }
@@ -183,6 +183,11 @@
     font-size: 16px;
     line-height: 130%;
     margin: 0 auto;
+}
+
+.footer__design-inf:hover {
+    text-decoration: underline 1px #4B9200;
+    color: #4B9200;
 }
 
 .footer__design-inf:not(:last-child) {
