@@ -74,7 +74,7 @@
     background: #FFFFFF;
     box-sizing: border-box;
     font-size: 16px;
-    transition: all ease-in 10s;
+    /*transition: all ease-in 10s;*/
 }
 
 
@@ -98,6 +98,8 @@
 
 .pets__button_link {
     margin: 0 auto;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 @media screen and (max-width: 1599px){

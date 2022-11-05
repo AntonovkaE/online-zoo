@@ -96,11 +96,14 @@
 
 .feed__button {
     display: block;
+    font-size: 16px;
+    line-height: 22px;
     margin: 0 auto;
 }
 
 .feed__link {
     text-decoration: underline;
+
     text-decoration-color: #FE9013;
 }
 
@@ -115,6 +118,9 @@
         width: 823px;
         margin: 0 auto 40px 49px;
     }
+    .feed__heading_main {
+        line-height: 59px;
+        margin: 0 auto 20px auto;}
 
     .feed__content {
         width: 94%;
@@ -131,5 +137,8 @@
     .feed__description_text {
         width: auto;
         margin: 0 68px 40px 49px;
+    }
+    .feed__schema {
+        margin: 0 auto 70px;
     }
 }

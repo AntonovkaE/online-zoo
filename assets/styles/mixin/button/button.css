@@ -6,6 +6,8 @@
     text-transform: uppercase;
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
     height: fit-content;
+    font-size: 16px;
+    line-height: 22px;
 }
 
 .button:hover {

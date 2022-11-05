@@ -118,6 +118,9 @@
 }
 
 @media screen and (max-width: 1599px) {
+    .testimonials__heading {
+        margin: 0 auto 30px;
+    }
     .testimonials__content {
         width: 940px;
         padding: 100px 0 140px;
@@ -131,6 +134,16 @@
         margin: 0 auto 21px;
         gap: 0 30px;
         overflow: hidden;
+    }
+    .feedback-card {
+        padding: 10px 21px 16px 16px;
+    }
+    .line-scroll {
+        width: 390px;
+        margin: 0 auto 53px;
+    }
+    .line-scroll__active-part {
+        width: 19% ;
     }
 
 }

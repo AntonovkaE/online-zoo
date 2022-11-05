@@ -41,6 +41,7 @@
 }
 
 .subscribe-form__input {
+    color: #FFFFFF;
     background-color: inherit;
     border-radius: 5px;
     border: #F9804B 1px solid;
@@ -53,7 +54,18 @@
 .subscribe-form__input:focus {
     border: 1px solid #4B9200;
 }
+.subscribe-form__input:focus-visible {
+    outline: none;
+    border: 1px solid #4B9200;
+}
+.subscribe-form__input:invalid {
+    border: #D31414 1px solid;
+    color: #D31414;
+}
 
+.subscribe-form__input:active {
+    border: 1px solid #4B9200;
+}
 .subscribe-form__input::-webkit-input-placeholder {
     font-weight: 400;
     font-size: 16px;
@@ -61,6 +73,9 @@
 }
 
 .footer__button_donate {
+    text-align: center;
+    box-sizing: border-box;
+    width: 298px;
     margin: 0 70% 44px 0;
 }
 
@@ -78,15 +93,15 @@
     color: inherit;
     font-weight: 400;
     font-size: 16px;
-    line-height: 140%;
+    line-height: 22px;
     display: flex;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
-.footer__social-link {
-    margin-bottom: 0;
-}
+/*.footer__social-link:last-child {*/
+/*    margin-bottom: 0;*/
+/*}*/
 
 .social-links {
     align-self: end;
@@ -96,6 +111,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 0;
+    padding: 0;
 }
 
 .social-link__item:not(:last-child) {
@@ -120,7 +136,7 @@
 .footer__navigation-item {
     font-weight: 400;
     font-size: 16px;
-    line-height: 140%;
+    line-height: 22px;
 }
 
 .footer__navigation-item_active {
@@ -136,6 +152,8 @@
 }
 
 .footer__design-inf {
+    width: 230px;
+    display: block;
     font-weight: 100;
     font-size: 16px;
     line-height: 130%;
@@ -144,4 +162,30 @@
 
 .footer__design-inf:not(:last-child) {
     margin: 0 auto 10px;
+}
+
+
+@media screen and (max-width: 1599px) {
+    .footer__content {
+        max-width: 94%;
+        padding: 40px 0 50px 0;
+        margin: 0 auto;
+    }
+    .subscribe-form {
+        margin-left: auto;
+        margin-right: 32px;
+    }
+    .footer__nav {
+        flex-basis: 600px;
+    }
+
+    .footer__navigation-list {
+        margin-left: 189px;
+    }
+    .footer__button_donate {
+        margin: 0 65% 44px 0;
+    }
+    .footer__navigation-link {
+        margin-right: 48px;
+    }
 }
