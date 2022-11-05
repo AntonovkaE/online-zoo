@@ -87,6 +87,9 @@
     background: rgba(196, 196, 196, 0.5);
     margin: 0 12px 0 0;
 }
+.footer__social-link:hover .footer__social-icon {
+    background: #4B9200;
+}
 
 .footer__social-link {
     text-decoration: none;
@@ -141,6 +144,14 @@
 
 .footer__navigation-item_active {
     background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.footer__navigation-item_active:hover {
+    background: #4B9200;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;

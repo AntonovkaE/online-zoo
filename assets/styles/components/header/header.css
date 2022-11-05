@@ -67,6 +67,15 @@
     text-fill-color: transparent;
 }
 
+.navigation__menu-item_active:hover {
+    background: #4B9200;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+
 @media screen and (max-width: 1599px) {
     .navigation {
         max-width: 100%;
