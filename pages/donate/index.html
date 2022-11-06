@@ -19,7 +19,7 @@
             <li class="navigation__menu-item"><a class="link" href="../main/index.html">About</a></li>
             <li class="navigation__menu-item"><a class="link" href="#">Map</a></li>
             <li class="navigation__menu-item"><a class="link" href="#">Zoos</a></li>
-            <li class="navigation__menu-item navigation__menu-item_active"><a class="link" href="#main">Donate</a></li>
+            <li class="navigation__menu-item navigation__menu-item_active"><a class="link" href="../donate/index.html">Donate</a></li>
             <li class="navigation__menu-item"><a class="link" href="#">Contact us</a></li>
         </ul>
         <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online" class="link navigation__design">Designed by ©</a>
@@ -63,7 +63,7 @@
                             <label for="1" data-debt-amount="$5000"></label>
                             <input class="amount-slider__input" type="radio" name="debt-amount" id="2" value="2000" required>
                             <label for="2" data-debt-amount="$2000"></label>
-                            <input class="amount-slider__input" type="radio" name="debt-amount" id="3" value="1000" required>
+                            <input class="amount-slider__input" type="radio" name="debt-amount" id="3" value="1000" checked required>
                             <label for="3" data-debt-amount="$1000"></label>
                             <input class="amount-slider__input" type="radio" name="debt-amount" id="4" value="500" required>
                             <label for="4" data-debt-amount="$500"></label>
@@ -78,14 +78,14 @@
                             <div class="amount-slider__pos" id="debt-amount-pos"></div>
                         </div>
                         <label class="form__text-input">
-                            <input class="form__input" type="text" placeholder="Another amount">
+                            <input class="form__input form__input_amount" type="number" placeholder="Another amount">
                         </label>
                         <div class="form__radio-inputs">
-                            <input class="form__radio-button" type="radio" name="Monthly" id="radio-monthly"/>
+                            <input class="form__radio-button" type="radio" name="howOften" id="radio-monthly"/>
                             <label class="form__radio-input" for="radio-monthly">
                                 Monthly
                             </label>
-                            <input class="form__radio-button" type="radio" name="Monthly" id="radio-once"/>
+                            <input class="form__radio-button" type="radio" name="howOften" id="radio-once" checked/>
                             <label  class="form__radio-input" for="radio-once">
                                 Once
                             </label>
