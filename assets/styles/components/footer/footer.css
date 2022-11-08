@@ -206,11 +206,11 @@
         margin-right: 32px;
     }
     .footer__nav {
-        flex-basis: 600px;
+        flex-basis: 550px;
     }
 
     .footer__navigation-list {
-        margin-left: 189px;
+        margin-left: 150px;
     }
     .footer__button_donate {
         margin: 0 65% 44px 0;

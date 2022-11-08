@@ -41,6 +41,7 @@
     text-align: left;
 }
 .donation__text {
+    font-weight: 500;
     font-size: 16px;
     line-height: 22px;
     margin: 0 auto 40px;
@@ -52,7 +53,7 @@
     font-size: 16px;
     line-height: 140%;
     text-align: left;
-    margin: 0 auto 16px 0;
+    margin: 0 auto 17px 0;
 }
 
 
@@ -118,4 +119,33 @@
 
 .form__radio-button:checked + .form__radio-input::before {
     background: #FE9013;
+}
+
+@media screen and (max-width: 1599px){
+    .donation__heading {
+        margin: 0 auto 40px 0;
+        width: 778px
+    }
+    .donation__content {
+        width: 940px;
+        margin: 0 auto;
+        padding: 40px 0 30px;
+    }
+    .donation__heading_main {
+        margin: 0 auto 30px 0;
+    }
+    .donate-background{
+        background-position: -172px center;
+    }
+
+    .donation__text {
+        margin-bottom: 46px;
+    }
+
+    .donation__light-background {
+        padding: 20px 47px 46px 47px;
+    }
+    .donation__heading_feed {
+        margin: 0 auto 10px;
+    }
 }

@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
 
 }
 
@@ -51,4 +52,15 @@
     font-size: 16px;
     line-height: 22px;
     color: #333B41;
+}
+
+@media  screen  and (max-width: 1599px){
+    /*.donation__light-background {*/
+    /*    padding: 20px 65px 46px;*/
+    /*}*/
+    .donation-form {
+        width: 100%;
+        max-width: calc(100% - 36px);
+        margin: 0 auto;
+    }
 }
